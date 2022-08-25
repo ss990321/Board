@@ -1,0 +1,19 @@
+# Request
+POST http://localhost:8080/api/member/signup
+Content-Type: application/json
+
+{
+  "nickname": "Imsoyun99",
+  "password": "sy1234",
+  "passwordConfirm": "sy1234"
+}
+
+###
+# Request
+POST http://localhost:8080/api/member/login
+Content-Type: application/json
+
+{
+  "nickname": "Imsoyun99",
+  "password": "sy1234"
+}
